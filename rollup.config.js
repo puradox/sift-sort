@@ -1,6 +1,7 @@
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 import sourceMaps from 'rollup-plugin-sourcemaps'
+import filesize from 'rollup-plugin-filesize'
 const pkg = require('./package.json')
 const camelCase = require('lodash.camelcase')
 
@@ -24,6 +25,9 @@ export default {
     resolve(),
 
     // Resolve source maps to the original source
-    sourceMaps()
-  ]
+    sourceMaps(),
+
+    // Show file size of the bundle
+    filesize(),
+  ],
 }
