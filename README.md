@@ -1,15 +1,29 @@
 <big><h1 align="center">sift</h1></big>
 
 <p align="center">
+  <a href="https://npmjs.org/package/sort-obj-array">
+    <img src="https://img.shields.io/npm/v/sort-obj-array.svg" alt="NPM Version">
+  </a>
 
-  [![NPM Version](https://img.shields.io/npm/v/sort-obj-array.svg)](https://npmjs.org/package/sort-obj-array)
-  [![Github Issues](https://img.shields.io/github/issues/ardent-labs/sort-obj-array.svg)](https://github.com/ArdentLabs/sort-obj-array/issues)
-  [![Travis](https://img.shields.io/travis/alexjoverm/typescript-library-starter.svg)](https://travis-ci.org/alexjoverm/typescript-library-starter)
+  <a href="http://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/npm/l/sort-obj-array.svg" alt="License">
+  </a>
 
-  [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-  [![Greenkeeper badge](https://badges.greenkeeper.io/alexjoverm/typescript-library-starter.svg)](https://greenkeeper.io/)
-  [![Coveralls](https://img.shields.io/coveralls/alexjoverm/typescript-library-starter.svg)](https://coveralls.io/github/alexjoverm/typescript-library-starter)
-  [![Dev Dependencies](https://david-dm.org/alexjoverm/typescript-library-starter/dev-status.svg)](https://david-dm.org/alexjoverm/typescript-library-starter?type=dev)
+  <a href="https://github.com/ardent-labs/sort-obj-array/issues">
+    <img src="https://img.shields.io/github/issues/ardent-labs/sort-obj-array.svg" alt="Github Issues">
+  </a>
+
+  <a href="https://travis-ci.org/ardent-labs/sort-obj-array">
+    <img src="https://img.shields.io/travis/ardent-labs/sort-obj-array.svg" alt="Travis">
+  </a>
+
+  <a href="https://coveralls.io/github/ardent-labs/sort-obj-array">
+    <img src="https://img.shields.io/coveralls/ardent-labs/sort-obj-array.svg" alt="Coveralls">
+  </a>
+
+  <a href="https://david-dm.org/ardent-labs/sort-obj-array?type=dev">
+    <img src="https://david-dm.org/ardent-labs/sort-obj-array/dev-status.svg" alt="Dev Dependencies">
+  </a>
 </p>
 
 <p align="center"><big>
