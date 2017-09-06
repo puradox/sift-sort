@@ -1,33 +1,32 @@
-<big><h1 align="center">sift</h1></big>
+<big><h1 align="center">sift-sort</h1></big>
 
 <p align="center">
-  <a href="https://npmjs.org/package/sort-obj-array">
-    <img src="https://img.shields.io/npm/v/sort-obj-array.svg" alt="NPM Version">
+  <a href="https://npmjs.org/package/sift-sort">
+    <img src="https://img.shields.io/npm/v/sift-sort.svg" alt="NPM Version">
   </a>
 
-  <a href="http://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/npm/l/sort-obj-array.svg" alt="License">
+  <a href="https://github.com/puradox/sift-sort/issues">
+    <img src="https://img.shields.io/github/issues/puradox/sift-sort.svg" alt="Github Issues">
   </a>
 
-  <a href="https://github.com/ardent-labs/sort-obj-array/issues">
-    <img src="https://img.shields.io/github/issues/ardent-labs/sort-obj-array.svg" alt="Github Issues">
+  <a href="https://travis-ci.org/puradox/sift-sort">
+    <img src="https://img.shields.io/travis/puradox/sift-sort.svg" alt="Travis">
   </a>
 
-  <a href="https://travis-ci.org/ardent-labs/sort-obj-array">
-    <img src="https://img.shields.io/travis/ardent-labs/sort-obj-array.svg" alt="Travis">
+  <a href="https://coveralls.io/github/puradox/sift-sort">
+    <img src="https://img.shields.io/coveralls/puradox/sift-sort.svg" alt="Coveralls">
   </a>
 
-  <a href="https://coveralls.io/github/ardent-labs/sort-obj-array">
-    <img src="https://img.shields.io/coveralls/ardent-labs/sort-obj-array.svg" alt="Coveralls">
-  </a>
-
-  <a href="https://david-dm.org/ardent-labs/sort-obj-array?type=dev">
-    <img src="https://david-dm.org/ardent-labs/sort-obj-array/dev-status.svg" alt="Dev Dependencies">
+  <a href="https://david-dm.org/puradox/sift-sort?type=dev">
+    <img src="https://david-dm.org/puradox/sift-sort/dev-status.svg" alt="Dev Dependencies">
   </a>
 </p>
 
 <p align="center"><big>
-Sort an array of objects using an intuitive object syntax
+  Sort an array of objects using the
+  <a href="https://docs.mongodb.com/manual/reference/operator/aggregation/sort/index.html">
+    MongoDB <code>$sort</code> syntax
+  </a>
 </big></p>
 
 
@@ -40,13 +39,13 @@ Sort an array of objects using an intuitive object syntax
 ## Install
 
 ```sh
-npm install sort-obj-array
+npm install sift-sort
 ```
 
 ## Usage
 
 ```javascript
-import sort, { inverse } from 'sort-obj-array';
+import { sort, inverse } from 'sift-sort';
 
 const accounts = [
   { meta: { lastLogin: { day: 4 }, id: 7 }, type: 'user' },

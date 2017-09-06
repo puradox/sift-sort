@@ -1,5 +1,5 @@
 import { fromJS } from "immutable"
-import { sort, inverse } from "../src/sift"
+import { sort, inverse } from "../src/sift-sort"
 
 const _ = undefined
 

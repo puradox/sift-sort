@@ -4,7 +4,7 @@ import sourceMaps from 'rollup-plugin-sourcemaps'
 const pkg = require('./package.json')
 const camelCase = require('lodash.camelcase')
 
-const libraryName = 'sift'
+const libraryName = 'sift-sort'
 
 export default {
   input: `compiled/${libraryName}.js`,

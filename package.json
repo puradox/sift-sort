@@ -1,11 +1,11 @@
 {
-  "name": "sift",
-  "version": "0.0.0",
+  "name": "sift-sort",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "dist/sift.umd.js",
-  "module": "dist/sift.es5.js",
-  "typings": "dist/types/sift.d.ts",
+  "main": "dist/sift-sort.umd.js",
+  "module": "dist/sift-sort.es5.js",
+  "typings": "dist/types/sift-sort.d.ts",
   "files": [
     "dist"
   ],
